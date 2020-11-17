@@ -1,0 +1,62 @@
+/** ecf4f3, 68b0ab, 006a71, ff7e67 **/
+
+body {
+  background-color: #ecf4f3;
+  margin: 0px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1{
+  margin: 0 auto 0 auto;
+  font-family: 'Lemonada', cursive;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.profile-picture{
+  height: 250px;
+  border-style: none;
+  border-radius: 30%
+}
+
+.web-code-art{
+  height: 180px;
+}
+
+.javascript{
+  height: 150px;
+  border-radius: 20%
+}
+.top-container{
+  background-color: #68b0ab;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container{
+
+}
+
+.bottom-container{
+
+}
+
+.top-cloud{
+  position: absolute;
+  right: 300px;
+  top: 50px;
+
+}
+
+.bottom-cloud{
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
