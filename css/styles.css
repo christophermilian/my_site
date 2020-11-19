@@ -8,34 +8,87 @@ body {
 }
 
 h1{
-  margin: 0 auto 0 auto;
+  color: #ffc85c;
+  font-size: 4rem;
+  margin: 50px auto 0 auto;
   font-family: 'Lemonada', cursive;
 }
 
 h2{
+  color: #c05555;
+  font-weight: normal;
+  font-size: 2rem;
   font-family: 'Montserrat', sans-serif;
 }
 
 h3{
+  color: #c05555;
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  margin: 100px auto 100px auto;
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 5%;
+}
+
+a{
+  color: #c05555;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 10px 20px;
+}
+
+a:hover{
+  color: #EAF6F6
+}
+
+.job-title{
+  color: #ffc85c;
+  font-weight: normal;
+  font-size: 2rem;
   font-family: 'Montserrat', sans-serif;
 }
 
 .profile-picture{
+  margin: 50px auto 50px auto;
   height: 250px;
   border-style: none;
   border-radius: 30%
 }
 
-.web-code-art{
-  height: 180px;
+.skill-row-html{
+  width: 30%;
+  margin: 100px auto 150px auto;
+  text-align: left;
+  line-height: 2;
 }
 
-.javascript{
-  height: 150px;
-  border-radius: 20%
+.skill-row-js{
+  width: 30%;
+  margin: 100px auto 150px auto;
+  text-align: right;
+  line-height: 2;
 }
+
+.web-code-image{
+  height: 180px;
+  float: left;
+  margin-right: 30px;
+}
+
+.javascript-image{
+  height: 130px;
+  float: right;
+  margin-left: 30px;
+}
+
 .top-container{
-  background-color: #68b0ab;
+  background-color: #59886b;
   position: relative;
   padding-top: 100px;
 }
@@ -45,7 +98,9 @@ h3{
 }
 
 .bottom-container{
-
+background-color: #ffc85c;
+color: white;
+padding: 20px;
 }
 
 .top-cloud{
@@ -58,5 +113,54 @@ h3{
 .bottom-cloud{
   position: absolute;
   left: 300px;
-  bottom: 300px;
+  bottom: 330px;
+}
+
+.mountain{
+  height: 25rem;
+  position: relative;
+  top: 4px;
+  margin: 0;
+}
+
+.button-contact-me {
+   background: #C05555;
+   background-image: -webkit-linear-gradient(top, #C05555, #BF1E1E);
+   background-image: -moz-linear-gradient(top, #C05555, #BF1E1E);
+   background-image: -ms-linear-gradient(top, #C05555, #BF1E1E);
+   background-image: -o-linear-gradient(top, #C05555, #BF1E1E);
+   background-image: -webkit-gradient(to bottom, #C05555, #BF1E1E);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   margin: 30px auto 60px auto;
+   border-radius: 10px;
+   color: #FFFFFF;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 20px;
+   font-weight: 100;
+   padding: 10px;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #C05555 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.button-contact-me:hover {
+   border: solid #C05555 1px;
+   background: #C05555;
+   background-image: -webkit-linear-gradient(top, #C05555, #C05555);
+   background-image: -moz-linear-gradient(top, #C05555, #C05555);
+   background-image: -ms-linear-gradient(top, #C05555, #C05555);
+   background-image: -o-linear-gradient(top, #C05555, #C05555);
+   background-image: -webkit-gradient(to bottom, #C05555, #C05555);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+
+.attributions{
+  margin-bottom: 0;
 }
