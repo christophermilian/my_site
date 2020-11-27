@@ -10,7 +10,7 @@ body {
 h1{
   color: #ffc85c;
   font-size: 4rem;
-  margin: 50px auto 0 auto;
+  margin: 50px auto 0 auto;**/
   font-family: 'Lemonada', cursive;
 }
 
@@ -47,17 +47,42 @@ a:hover{
   color: #EAF6F6
 }
 
-.job-title{
-  color: #ffc85c;
-  font-weight: normal;
-  font-size: 2rem;
-  font-family: 'Montserrat', sans-serif;
+.navbar {
+  background-color: #ffc85c;
 }
 
-.profile-picture{
-  height: 250px;
+.navbar-brand {
+  color: #ebebeb;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+#job-title{
+  color: #ffc85c;
+  font-weight: bold;
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  /* text-align: left; */
+}
+
+#profile-pic{
+  height: auto;
   border-style: none;
-  border-radius: 30%
+  border-radius: 20%;
+}
+
+#prof-info{
+  margin-top: 5em;
+}
+#intro-card{
+  margin-top: 100px;
+  background-color: #ecf4f3;
+  border: none;
+  padding: 20px;
+}
+
+.card-link:hover{
+    color: black;
 }
 
 .intro{
@@ -97,51 +122,10 @@ a:hover{
   margin-right: 30px;
 }
 
-.top-container{
-  background-color: #59886b;
-  position: relative;
-  padding-top: 10px;
-}
-
-.middle-container{
-margin: 100px 0;
-}
-
-.bottom-container{
+.bottom-container {
 background-color: #ffc85c;
 color: white;
 padding: 20px;
-}
-
-.top-cloud{
-  position: relative;
-  height: 150px;
-  left: 450px;
-  top: 50px;
-
-}
-
-.bottom-cloud{
-  position: relative;
-  height: 150px;
-  right: 100px;
-  bottom: 400px;
-}
-
-.forest{
-  height: 25rem;
-  position: relative;
-  right: 100px;
-  top: 5px;
-  margin: 0;
-}
-
-.cabin{
-  height: 20rem;
-  position: relative;
-  top: 4px;
-  left: 10px;
-  margin: 0;
 }
 
 .button-contact-me {
